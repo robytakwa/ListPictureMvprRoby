@@ -62,9 +62,7 @@ class ResultsItem : Parcelable {
     @SerializedName("vote_count")
     var voteCount: Int = 0
 
-    constructor() {
-
-    }
+    constructor()
 
     constructor(`in`: Parcel) {
         overview = `in`.readString()
